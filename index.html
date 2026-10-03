@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Glamour Studio — Standard City's most luxurious unisex salon & spa. Premium hair care, grooming, facials, and beauty treatments for men and women. Book your appointment today." />
+  <meta name="keywords" content="salon Standard City, unisex salon, hair salon, barbershop, spa, beauty salon, men grooming, women hair" />
+  <meta property="og:title" content="Glamour Studio | Standard City's Premier Salon & Spa" />
+  <meta property="og:description" content="Experience luxury beauty treatments for men and women at Standard City's most prestigious salon." />
+  <meta property="og:type" content="website" />
+  <title>Glamour Studio | Premium Unisex Salon & Spa — Standard City</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo">GS</div>
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+      <p class="preloader-text">Crafting Your Experience...</p>
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" id="nav-logo">
+        <span class="logo-gs">GS</span>
+        <span class="logo-text">Glamour Studio</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#team" class="nav-link">Our Team</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#booking" class="nav-cta-btn" id="book-nav-btn">Book Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg-video">
+      <div class="hero-overlay"></div>
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=90&auto=format&fit=crop" alt="Luxury Salon Interior" class="hero-bg-img" id="hero-bg-img" />
+    </div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">✦ Standard City's #1 Salon ✦</div>
+      <h1 class="hero-title">
+        <span class="hero-title-line1">Where Beauty</span>
+        <span class="hero-title-line2">Meets <em>Artistry</em></span>
+      </h1>
+      <p class="hero-subtitle">Premium unisex salon and spa experience crafted for the modern individual. Exceptional hair, grooming and beauty services.</p>
+      <div class="hero-actions">
+        <a href="#booking" class="btn-primary" id="hero-book-btn">
+          <span>Book Appointment</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#services" class="btn-ghost" id="explore-services-btn">
+          <span>Explore Services</span>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" data-target="5000">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Happy Clients</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="12">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Expert Stylists</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="8">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years of Excellence</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- TICKER STRIP -->
+  <div class="ticker-strip">
+    <div class="ticker-inner">
+      <span>✦ Hair Coloring</span><span>✦ Haircuts & Styling</span><span>✦ Beard Grooming</span>
+      <span>✦ Facial Treatments</span><span>✦ Nail Art</span><span>✦ Waxing & Threading</span>
+      <span>✦ Scalp Treatments</span><span>✦ Keratin Therapy</span><span>✦ Bridal Packages</span>
+      <span>✦ Hair Coloring</span><span>✦ Haircuts & Styling</span><span>✦ Beard Grooming</span>
+      <span>✦ Facial Treatments</span><span>✦ Nail Art</span><span>✦ Waxing & Threading</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images">
+          <div class="about-img-main reveal-left">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=700&q=85&auto=format&fit=crop" alt="Salon Interior" loading="lazy"/>
+            <div class="img-badge">
+              <span class="img-badge-num">8+</span>
+              <span class="img-badge-text">Years of Elegance</span>
+            </div>
+          </div>
+          <div class="about-img-secondary reveal-up">
+            <img src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=500&q=85&auto=format&fit=crop" alt="Stylist at work" loading="lazy"/>
+          </div>
+          <div class="about-img-tertiary reveal-up">
+            <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=400&q=85&auto=format&fit=crop" alt="Men grooming" loading="lazy"/>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <div class="section-label">Our Story</div>
+          <h2 class="section-title">A Legacy of <em>Craftsmanship</em> and Care</h2>
+          <p class="about-desc">Founded in 2016 in the heart of Standard City, Glamour Studio has redefined what it means to visit a salon. We believe every visit should feel like a mini retreat — a sanctuary where skilled artistry meets genuine hospitality.</p>
+          <p class="about-desc">Our unisex philosophy means everyone deserves the same level of exceptional care. Whether you're a gentleman seeking a refined cut or a woman looking for a complete transformation, our team delivers beyond expectations.</p>
+          <div class="about-features">
+            <div class="feature-item">
+              <div class="feature-icon">🌿</div>
+              <div>
+                <strong>Organic Products</strong>
+                <p>We use only premium, cruelty-free, and eco-conscious brands.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🏆</div>
+              <div>
+                <strong>Award Winning</strong>
+                <p>Recognized as Standard City's best salon for 3 consecutive years.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">✂️</div>
+              <div>
+                <strong>Master Stylists</strong>
+                <p>Every stylist holds international certification and continuous training.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#services" class="btn-primary">Discover Our Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">What We Offer</div>
+        <h2 class="section-title">Premium Services for <em>Everyone</em></h2>
+        <p class="section-desc">Whether you're here for a bold transformation or a polished routine touch-up, we have the perfect service waiting for you.</p>
+      </div>
+      <div class="service-tabs">
+        <button class="tab-btn active" id="tab-all" data-tab="all">All Services</button>
+        <button class="tab-btn" id="tab-women" data-tab="women">For Her</button>
+        <button class="tab-btn" id="tab-men" data-tab="men">For Him</button>
+      </div>
+      <div class="services-grid" id="services-grid">
+
+        <div class="service-card reveal-up" data-cat="women" id="service-haircut-women">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=600&q=80&auto=format&fit=crop" alt="Women's Haircut" loading="lazy"/>
+            <div class="service-tag">For Her</div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">✂️</div>
+            <h3>Haircut and Styling</h3>
+            <p>Precision cuts, blowouts, and expert styling tailored to your face shape and lifestyle.</p>
+            <div class="service-price"><span>From</span> Rs. 399</div>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up" data-cat="women" id="service-color-women">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=600&q=80&auto=format&fit=crop" alt="Hair Coloring" loading="lazy"/>
+            <div class="service-tag">For Her</div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">🎨</div>
+            <h3>Hair Coloring and Balayage</h3>
+            <p>From vibrant global colors to subtle balayage and highlights — pure artistry for your hair.</p>
+            <div class="service-price"><span>From</span> Rs. 1,200</div>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up" data-cat="women" id="service-keratin">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1527799820374-87776c4e3f7f?w=600&q=80&auto=format&fit=crop" alt="Keratin Treatment" loading="lazy"/>
+            <div class="service-tag">For Her</div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">💫</div>
+            <h3>Keratin Smoothing</h3>
+            <p>Eliminate frizz and add luminous shine with our professional keratin bonding treatment.</p>
+            <div class="service-price"><span>From</span> Rs. 2,500</div>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up" data-cat="women" id="service-facial-women">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=600&q=80&auto=format&fit=crop" alt="Facial Treatment" loading="lazy"/>
+            <div class="service-tag">For Her</div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">🌸</div>
+            <h3>Luxury Facial and Glow</h3>
+            <p>Revitalize your skin with bespoke facial treatments using high-performance serums and masks.</p>
+            <div class="service-price"><span>From</span> Rs. 899</div>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up" data-cat="women" id="service-nails">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&q=80&auto=format&fit=crop" alt="Nail Art" loading="lazy"/>
+            <div class="service-tag">For Her</div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">💅</div>
+            <h3>Nail Art and Extensions</h3>
+            <p>Gel polish, acrylic extensions, nail art designs — your hands deserve to look flawless.</p>
+            <div class="service-price"><span>From</span> Rs. 499</div>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up" data-cat="women" id="service-bridal">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80&auto=format&fit=crop" alt="Bridal Package" loading="lazy"/>
+            <div class="service-tag popular-tag">Popular</div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">👰</div>
+            <h3>Bridal Package</h3>
+            <p>Complete bridal makeover including hair, makeup, skin, and nail prep for your big day.</p>
+            <div class="service-price"><span>From</span> Rs. 8,999</div>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up" data-cat="men" id="service-haircut-men">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&q=80&auto=format&fit=crop" alt="Men's Haircut" loading="lazy"/>
+            <div class="service-tag men-tag">For Him</div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">✂️</div>
+            <h3>Classic and Modern Cuts</h3>
+            <p>From timeless classics to contemporary fades — our barbers craft cuts that define your style.</p>
+            <div class="service-price"><span>From</span> Rs. 299</div>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up" data-cat="men" id="service-beard">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&q=80&auto=format&fit=crop" alt="Beard Grooming" loading="lazy"/>
+            <div class="service-tag men-tag popular-tag">Popular</div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">🧔</div>
+            <h3>Beard Sculpting and Shave</h3>
+            <p>Expert beard styling, hot towel shave, and grooming to keep you looking sharp always.</p>
+            <div class="service-price"><span>From</span> Rs. 349</div>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up" data-cat="men" id="service-facial-men">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80&auto=format&fit=crop" alt="Men Facial" loading="lazy"/>
+            <div class="service-tag men-tag">For Him</div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">💆</div>
+            <h3>Men's Facial and Skin</h3>
+            <p>Deep-cleanse and rejuvenate with our specialized men's skincare treatments.</p>
+            <div class="service-price"><span>From</span> Rs. 699</div>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up" data-cat="men" id="service-scalp">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?w=600&q=80&auto=format&fit=crop" alt="Scalp Treatment" loading="lazy"/>
+            <div class="service-tag men-tag">For Him</div>
+          </div>
+          <div class="service-body">
+            <div class="service-icon">🧴</div>
+            <h3>Scalp and Hair Treatment</h3>
+            <p>Targeted scalp therapies for dandruff, hair fall, and overall hair health restoration.</p>
+            <div class="service-price"><span>From</span> Rs. 799</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="why-us section">
+    <div class="why-us-bg"></div>
+    <div class="container">
+      <div class="section-header light">
+        <div class="section-label">Why Choose Us</div>
+        <h2 class="section-title">The Glamour Studio <em>Difference</em></h2>
+      </div>
+      <div class="why-us-grid">
+        <div class="why-card reveal-up" id="why-hygiene">
+          <div class="why-icon-wrap"><span>🛡️</span></div>
+          <h3>100% Hygiene Guarantee</h3>
+          <p>Sterilized tools, fresh capes, and sanitized stations for every single client — no exceptions.</p>
+        </div>
+        <div class="why-card reveal-up" id="why-certified">
+          <div class="why-icon-wrap"><span>🎓</span></div>
+          <h3>Internationally Certified</h3>
+          <p>All our stylists hold certifications from globally recognized beauty academies.</p>
+        </div>
+        <div class="why-card reveal-up" id="why-premium">
+          <div class="why-icon-wrap"><span>⭐</span></div>
+          <h3>Premium Products Only</h3>
+          <p>We partner with L'Oreal, Wella, Schwarzkopf and Kerastase for world-class results.</p>
+        </div>
+        <div class="why-card reveal-up" id="why-affordable">
+          <div class="why-icon-wrap"><span>💎</span></div>
+          <h3>Luxury at Fair Prices</h3>
+          <p>Premium quality doesn't have to be unaffordable. We keep our pricing transparent and fair.</p>
+        </div>
+        <div class="why-card reveal-up" id="why-personalized">
+          <div class="why-icon-wrap"><span>🎯</span></div>
+          <h3>Personalized Service</h3>
+          <p>Every visit begins with a thorough consultation to understand exactly what you need.</p>
+        </div>
+        <div class="why-card reveal-up" id="why-time">
+          <div class="why-icon-wrap"><span>⏱️</span></div>
+          <h3>On-Time Appointments</h3>
+          <p>We respect your schedule. Book your slot and walk in to a stylist ready just for you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Our Portfolio</div>
+        <h2 class="section-title">Transformations That <em>Speak</em></h2>
+        <p class="section-desc">A glimpse into our studio's craft and the artistry we bring to every client.</p>
+      </div>
+      <div class="gallery-grid" id="gallery-grid">
+        <div class="gallery-item g-large reveal-up" id="gal-1">
+          <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=85&auto=format&fit=crop" alt="Luxury Salon" loading="lazy"/>
+          <div class="gallery-overlay"><span>Our Salon</span></div>
+        </div>
+        <div class="gallery-item reveal-up" id="gal-2">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=500&q=85&auto=format&fit=crop" alt="Hair Styling" loading="lazy"/>
+          <div class="gallery-overlay"><span>Hair Art</span></div>
+        </div>
+        <div class="gallery-item reveal-up" id="gal-3">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=500&q=85&auto=format&fit=crop" alt="Men's Cut" loading="lazy"/>
+          <div class="gallery-overlay"><span>Men's Cut</span></div>
+        </div>
+        <div class="gallery-item g-tall reveal-up" id="gal-4">
+          <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500&q=85&auto=format&fit=crop" alt="Premium Interior" loading="lazy"/>
+          <div class="gallery-overlay"><span>Premium Space</span></div>
+        </div>
+        <div class="gallery-item reveal-up" id="gal-5">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=500&q=85&auto=format&fit=crop" alt="Nail Art" loading="lazy"/>
+          <div class="gallery-overlay"><span>Nail Art</span></div>
+        </div>
+        <div class="gallery-item reveal-up" id="gal-6">
+          <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=500&q=85&auto=format&fit=crop" alt="Color Treatment" loading="lazy"/>
+          <div class="gallery-overlay"><span>Color Magic</span></div>
+        </div>
+        <div class="gallery-item reveal-up" id="gal-7">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=500&q=85&auto=format&fit=crop" alt="Beard Grooming" loading="lazy"/>
+          <div class="gallery-overlay"><span>Beard Craft</span></div>
+        </div>
+        <div class="gallery-item g-wide reveal-up" id="gal-8">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=85&auto=format&fit=crop" alt="Bridal Look" loading="lazy"/>
+          <div class="gallery-overlay"><span>Bridal Dreams</span></div>
+        </div>
+        <div class="gallery-item reveal-up" id="gal-9">
+          <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=500&q=85&auto=format&fit=crop" alt="Skin Glow" loading="lazy"/>
+          <div class="gallery-overlay"><span>Skin Glow</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="team section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">The Artists</div>
+        <h2 class="section-title">Meet Our Expert <em>Team</em></h2>
+        <p class="section-desc">Our certified professionals bring passion, precision, and creativity to every appointment.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal-up" id="team-priya">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=85&auto=format&fit=crop" alt="Priya Sharma - Senior Stylist" loading="lazy"/>
+            <div class="team-social">
+              <a href="#" aria-label="Instagram Priya">📷</a>
+              <a href="#" aria-label="WhatsApp Priya">💬</a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Priya Sharma</h3>
+            <span class="team-role">Senior Hair Stylist</span>
+            <p>8 years · Specializes in Balayage and Color</p>
+            <div class="team-stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="team-card reveal-up" id="team-rahul">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85&auto=format&fit=crop" alt="Rahul Verma - Master Barber" loading="lazy"/>
+            <div class="team-social">
+              <a href="#" aria-label="Instagram Rahul">📷</a>
+              <a href="#" aria-label="WhatsApp Rahul">💬</a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Rahul Verma</h3>
+            <span class="team-role">Master Barber</span>
+            <p>10 years · Specialist in Fades and Beard Art</p>
+            <div class="team-stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="team-card reveal-up" id="team-ananya">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400&q=85&auto=format&fit=crop" alt="Ananya Patel - Beauty Expert" loading="lazy"/>
+            <div class="team-social">
+              <a href="#" aria-label="Instagram Ananya">📷</a>
+              <a href="#" aria-label="WhatsApp Ananya">💬</a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Ananya Patel</h3>
+            <span class="team-role">Beauty and Skin Expert</span>
+            <p>6 years · Facials, Bridal and Nail Art</p>
+            <div class="team-stars">★★★★★</div>
+          </div>
+        </div>
+        <div class="team-card reveal-up" id="team-arjun">
+          <div class="team-img-wrap">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=85&auto=format&fit=crop" alt="Arjun Singh - Hair Therapist" loading="lazy"/>
+            <div class="team-social">
+              <a href="#" aria-label="Instagram Arjun">📷</a>
+              <a href="#" aria-label="WhatsApp Arjun">💬</a>
+            </div>
+          </div>
+          <div class="team-info">
+            <h3>Arjun Singh</h3>
+            <span class="team-role">Hair Therapist</span>
+            <p>5 years · Scalp Treatments and Keratin</p>
+            <div class="team-stars">★★★★★</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="testimonials section">
+    <div class="testimonials-bg"></div>
+    <div class="container">
+      <div class="section-header light">
+        <div class="section-label">Client Love</div>
+        <h2 class="section-title">What Our Clients <em>Say</em></h2>
+      </div>
+      <div class="testimonial-slider-wrap">
+        <div class="testimonial-slider" id="testimonial-slider">
+          <div class="testimonial-slide active" id="testi-1">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Glamour Studio is absolutely breathtaking! I went in for a balayage and left feeling like a completely new person. Priya is a genius with color. Will never go anywhere else!"</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&q=80&auto=format&fit=crop&crop=face" alt="Sneha M." loading="lazy"/>
+              <div>
+                <strong>Sneha M.</strong>
+                <span>Standard City Resident</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide" id="testi-2">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Best barbershop experience I've ever had. Rahul gave me the cleanest fade and beard sculpt. The hot towel shave was incredibly relaxing. This place is on another level!"</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&q=80&auto=format&fit=crop&crop=face" alt="Karan D." loading="lazy"/>
+              <div>
+                <strong>Karan D.</strong>
+                <span>Loyal Customer, 3 Years</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide" id="testi-3">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"I came in for my bridal package and was blown away by the attention to detail. Ananya and the team made me look like royalty on my wedding day. 10/10, no questions asked!"</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=80&h=80&q=80&auto=format&fit=crop&crop=face" alt="Pooja R." loading="lazy"/>
+              <div>
+                <strong>Pooja R.</strong>
+                <span>Bridal Client</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-slide" id="testi-4">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"The facial treatment here is out of this world. My skin glowed for weeks! The staff is professional, friendly, and the salon is immaculate. Standard City is lucky to have this gem."</p>
+            <div class="testi-author">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&h=80&q=80&auto=format&fit=crop&crop=face" alt="Meera K." loading="lazy"/>
+              <div>
+                <strong>Meera K.</strong>
+                <span>Monthly Member</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-controls">
+          <button class="testi-prev" id="testi-prev" aria-label="Previous testimonial">&#8249;</button>
+          <div class="testi-dots" id="testi-dots">
+            <span class="testi-dot active" data-idx="0"></span>
+            <span class="testi-dot" data-idx="1"></span>
+            <span class="testi-dot" data-idx="2"></span>
+            <span class="testi-dot" data-idx="3"></span>
+          </div>
+          <button class="testi-next" id="testi-next" aria-label="Next testimonial">&#8250;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="booking" class="booking section">
+    <div class="container">
+      <div class="booking-wrap">
+        <div class="booking-info reveal-left">
+          <div class="section-label">Ready For A Change?</div>
+          <h2 class="section-title">Book Your <em>Appointment</em></h2>
+          <p>Walk into a world of luxury and expertise. Select your preferred service, date, and stylist — it's that simple.</p>
+          <ul class="booking-perks">
+            <li>✓ Free consultation included</li>
+            <li>✓ Flexible rescheduling</li>
+            <li>✓ Reminder notifications</li>
+            <li>✓ No hidden charges</li>
+          </ul>
+          <div class="booking-contact-quick">
+            <a href="tel:+919876543210" class="quick-contact-btn" id="call-book-btn">
+              📞 Call to Book: +91 98765 43210
+            </a>
+            <a href="https://wa.me/919876543210?text=Hi%20Glamour%20Studio!%20I'd%20like%20to%20book%20an%20appointment." target="_blank" class="quick-contact-btn whatsapp-btn" id="whatsapp-book-btn">
+              💬 WhatsApp Us
+            </a>
+          </div>
+        </div>
+        <div class="booking-form-wrap reveal-right">
+          <form class="booking-form" id="booking-form" novalidate>
+            <h3>Quick Booking Form</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="book-name">Your Name</label>
+                <input type="text" id="book-name" name="name" placeholder="e.g. Priya Sharma" required />
+              </div>
+              <div class="form-group">
+                <label for="book-phone">Phone Number</label>
+                <input type="tel" id="book-phone" name="phone" placeholder="+91 XXXXX XXXXX" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="book-service">Select Service</label>
+              <select id="book-service" name="service" required>
+                <option value="">-- Choose a Service --</option>
+                <optgroup label="For Her">
+                  <option value="haircut-women">Haircut and Styling (from Rs. 399)</option>
+                  <option value="color">Hair Coloring and Balayage (from Rs. 1,200)</option>
+                  <option value="keratin">Keratin Smoothing (from Rs. 2,500)</option>
+                  <option value="facial-women">Luxury Facial and Glow (from Rs. 899)</option>
+                  <option value="nails">Nail Art and Extensions (from Rs. 499)</option>
+                  <option value="bridal">Bridal Package (from Rs. 8,999)</option>
+                </optgroup>
+                <optgroup label="For Him">
+                  <option value="haircut-men">Classic and Modern Cuts (from Rs. 299)</option>
+                  <option value="beard">Beard Sculpting and Shave (from Rs. 349)</option>
+                  <option value="facial-men">Men's Facial and Skin (from Rs. 699)</option>
+                  <option value="scalp">Scalp and Hair Treatment (from Rs. 799)</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="book-date">Preferred Date</label>
+                <input type="date" id="book-date" name="date" required />
+              </div>
+              <div class="form-group">
+                <label for="book-time">Preferred Time</label>
+                <select id="book-time" name="time" required>
+                  <option value="">-- Select Time --</option>
+                  <option>10:00 AM</option><option>11:00 AM</option>
+                  <option>12:00 PM</option><option>1:00 PM</option>
+                  <option>2:00 PM</option><option>3:00 PM</option>
+                  <option>4:00 PM</option><option>5:00 PM</option>
+                  <option>6:00 PM</option><option>7:00 PM</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="book-stylist">Preferred Stylist</label>
+              <select id="book-stylist" name="stylist">
+                <option value="">-- Any Available --</option>
+                <option>Priya Sharma</option>
+                <option>Rahul Verma</option>
+                <option>Ananya Patel</option>
+                <option>Arjun Singh</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="book-notes">Additional Notes</label>
+              <textarea id="book-notes" name="notes" rows="3" placeholder="Any special requests or requirements..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full" id="submit-booking">
+              <span>Confirm Appointment</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <p class="form-note">We will confirm your booking via WhatsApp/Call within 30 minutes.</p>
+          </form>
+          <div class="booking-success" id="booking-success" style="display:none;">
+            <div class="success-icon">🎉</div>
+            <h3>Booking Request Sent!</h3>
+            <p>Thank you! We'll confirm your appointment within 30 minutes via call or WhatsApp.</p>
+            <button class="btn-primary" id="book-again-btn">Book Another</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Find Us</div>
+        <h2 class="section-title">Visit <em>Glamour Studio</em></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-cards">
+          <div class="contact-card reveal-up" id="contact-address">
+            <div class="contact-card-icon">📍</div>
+            <h3>Our Location</h3>
+            <p>Shop No. 12, Prestige Boulevard,<br/>MG Road, Standard City — 400001</p>
+            <a href="https://maps.google.com/?q=MG+Road+Standard+City" target="_blank" class="contact-link" id="map-link">Get Directions</a>
+          </div>
+          <div class="contact-card reveal-up" id="contact-phone">
+            <div class="contact-card-icon">📞</div>
+            <h3>Call Us</h3>
+            <p>+91 98765 43210<br/>+91 91234 56789</p>
+            <a href="tel:+919876543210" class="contact-link" id="phone-link">Call Now</a>
+          </div>
+          <div class="contact-card reveal-up" id="contact-email">
+            <div class="contact-card-icon">✉️</div>
+            <h3>Email Us</h3>
+            <p>hello@glamourstudio.in<br/>bookings@glamourstudio.in</p>
+            <a href="mailto:hello@glamourstudio.in" class="contact-link" id="email-link">Send Email</a>
+          </div>
+          <div class="contact-card reveal-up" id="contact-hours">
+            <div class="contact-card-icon">🕐</div>
+            <h3>Working Hours</h3>
+            <div class="hours-table">
+              <div class="hours-row"><span>Mon - Fri</span><span>9:00 AM - 8:00 PM</span></div>
+              <div class="hours-row"><span>Saturday</span><span>8:00 AM - 9:00 PM</span></div>
+              <div class="hours-row"><span>Sunday</span><span>10:00 AM - 6:00 PM</span></div>
+            </div>
+          </div>
+          <div class="contact-card reveal-up contact-card-wide" id="contact-social">
+            <div class="contact-card-icon">💻</div>
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#" class="social-btn" id="instagram-link" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                Instagram
+              </a>
+              <a href="#" class="social-btn" id="facebook-link" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                Facebook
+              </a>
+              <a href="https://wa.me/919876543210" target="_blank" class="social-btn whatsapp-social" id="whatsapp-social-link" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="map-embed reveal-right">
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823057!2d72.74109995709657!3d19.08219783958221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c55%3A0xe0b9d1a8c7a4c933!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1728000000000!5m2!1sen!2sin"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="Glamour Studio Location Map">
+            </iframe>
+            <div class="map-label">
+              <span class="map-pin-icon">📍</span>
+              <div>
+                <strong>Glamour Studio</strong>
+                <span>MG Road, Standard City</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/919876543210?text=Hi%20Glamour%20Studio!%20I'd%20like%20to%20book%20an%20appointment." 
+     target="_blank" class="whatsapp-float" id="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="whatsapp-pulse"></span>
+  </a>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo">
+              <span class="logo-gs">GS</span>
+              <span class="logo-text">Glamour Studio</span>
+            </a>
+            <p>Standard City's most beloved unisex salon and spa, where beauty meets artistry since 2016.</p>
+            <div class="footer-rating">
+              <span class="footer-stars">★★★★★</span>
+              <span>4.9/5 — 1,200+ Google Reviews</span>
+            </div>
+          </div>
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#team">Our Team</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Haircut and Styling</a></li>
+              <li><a href="#services">Hair Coloring</a></li>
+              <li><a href="#services">Bridal Package</a></li>
+              <li><a href="#services">Beard Grooming</a></li>
+              <li><a href="#services">Facials and Skin</a></li>
+              <li><a href="#services">Nail Art</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact-col">
+            <h4>Contact Info</h4>
+            <div class="footer-contact-item">
+              <span>📍</span>
+              <p>Shop No. 12, Prestige Boulevard, MG Road, Standard City — 400001</p>
+            </div>
+            <div class="footer-contact-item">
+              <span>📞</span>
+              <a href="tel:+919876543210">+91 98765 43210</a>
+            </div>
+            <div class="footer-contact-item">
+              <span>✉️</span>
+              <a href="mailto:hello@glamourstudio.in">hello@glamourstudio.in</a>
+            </div>
+            <div class="footer-contact-item">
+              <span>🕐</span>
+              <p>Mon–Fri: 9AM–8PM | Sat: 8AM–9PM | Sun: 10AM–6PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2024 Glamour Studio, Standard City. All rights reserved.</p>
+        <p>Designed with love for beauty enthusiasts.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
