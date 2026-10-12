@@ -11,23 +11,6 @@ A fully responsive, high-performance website for **Glamour Studio**, a premium u
 
 ---
 
-## 🚀 Deploy to Vercel (One Click)
-
-### Method 1 — Vercel Dashboard
-1. Push this folder to a GitHub repository
-2. Go to [vercel.com](https://vercel.com) → **New Project**
-3. Import your GitHub repository
-4. Framework Preset: **Other** (it auto-detects static)
-5. Click **Deploy** — done!
-
-### Method 2 — Vercel CLI
-```bash
-npm i -g vercel
-vercel --prod
-```
-
----
-
 ## ✨ Features
 
 | Feature | Details |
@@ -72,29 +55,6 @@ vercel --prod
 
 ---
 
-## 🛠️ Customization
-
-Update these files to personalize:
-
-### Change salon name/contact
-Edit `index.html` — search for `Glamour Studio`, phone numbers, and email addresses.
-
-### Change colors/theme
-Edit the CSS variables at the top of `styles.css`:
-```css
-:root {
-  --gold:       #c9a84c;   /* Main accent color */
-  --gold-light: #e8c97e;   /* Light variant */
-  --dark:       #0d0d0d;   /* Background dark */
-  --cream:      #f8f4ef;   /* Background light */
-}
-```
-
-### Change service prices
-Edit the `.service-price` values in each service card in `index.html`.
-
----
-
 ## 📁 File Structure
 
 ```
@@ -119,4 +79,4 @@ Saloon-Site/
 
 ---
 
-*© 2024 Glamour Studio, Standard City. All rights reserved.*
+*© 2026 Glamour Studio, Standard City. All rights reserved.*
